@@ -1,0 +1,53 @@
+En la consola podemos crear variables
+
+EJEMPLO:
+
+const hola = "Hola desde la consola";
+
+Si ejecutamos este código nos retorna un UNDEFINED (no hace nada porque no se ha definido el nombre de la variable) 
+
+Pero si escribimos "hola" aparece: Hola desde la consola
+
+// Podemos crear variables e imprimirlas en la consola del navegador
+//En Javascript ya viene un ambiente en todos los navegadores
+
+También puedes crear "Arreglos"
+
+console.log([1,2,3,4])
+
+//Nos mostrará una tabla - ideal cuando tenemos multiples registros
+
+console.table([1,2,3,4])
+
+// Podemos enviar mensajes de error y verlos en nuestra consola
+
+console.error('Algo salio mal')
+
+// Podemos enviar advertencias
+
+console.warm();
+
+// Nos permitirá limpiar la consola
+
+console.clear();
+
+// Podemos ver en cuanto tiempo de ejecuto un código con: 
+// De está forma podemos comparar varias piezas de código y ver cuál es una solución más rápida
+
+Console.time('Hola");
+
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+console.warm(Eso no está permitido);
+
+console.timeEnd ('Hola')
+
+// Un objeto es una variable con multiples valores
+
+const obj = {
+    nombre: "Adrian"
+}
