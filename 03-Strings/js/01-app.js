@@ -9,7 +9,7 @@ Los STRINGS son básicamente representaciones de TEXTO. Todo lo que sea TEXTO te
 */
 
 // El incluir comillas dobles o sencillas ya lo vuelve una cadena de texto 
-const producto = "Monitor de 20 pulgadas" // Es la forma más común
+const producto = "Monitor de 20 pulgadas" // Es la forma más común (Primitiva)
 const producto2 = String('Monitor de 24 pulgadas'); 
 
 
