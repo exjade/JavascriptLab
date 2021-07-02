@@ -33,3 +33,4 @@ console.log("El producto " , producto , "tiene un precio de " , precio);
 // Trajo una mejor forma de CONCATENAR variables que se le conoce como TEMPLATE STRING / TEMPLATE LITERALS
 // #Ejemplo 6: RECOMENDADA
 console.log(`El producto ${producto} tiene un precio de $ ${precio}`);
+
