@@ -19,7 +19,7 @@ console.log(producto.slice(8, 15));
 console.log(producto.slice(2, 1));
 
 /* 
- Alternativa a Slice
+ Alternativa a Slice es substring
   El resultado es exactamente el mismo que: 
 
 console.log(producto.slice(0, 10));
