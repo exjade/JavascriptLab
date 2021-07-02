@@ -54,4 +54,4 @@ console.log(hobbies.split(", ")); // Se dividirá por la  coma (,) que tiene cad
 // ¿Cómo hace Twitter para resaltar el Hastagh?
 
 const tweet = 'Aprendiendo Javascript Moderno #JSModernoConJuan';
-console.log(tweet.split("#"))
+console.log(tweet.split("#")); // Probablemente sería una mezcla de otros metodos para extraer correctamente #JSModernoConJuan
