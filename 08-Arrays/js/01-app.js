@@ -36,7 +36,7 @@
 
 // En el arreglo se diferencía únicamente por la coma " , "
 
-const numeros = [10, 20, 30]
+const numeros = [10, 20, 30] 
 
 // En el Objeto cada parte está diferenciada por una LLAVE y el VALOR
 
