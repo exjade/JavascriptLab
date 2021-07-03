@@ -1,7 +1,7 @@
 /* COPIAR 2 OBJETOS */ 
 
 /* 
-    Esto llega a ser una tarea común dado que en una base de datos obtienes el ID del Cliente y también tienes loc
+    Esto llega a ser una tarea común dado que en una base de datos obtienes el ID del Cliente y también tienes los
     Clientes que pertecen a ese ID y te gustaría unirlos
 */
 
