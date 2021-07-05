@@ -2,7 +2,7 @@
     En JavaScript es importante que mencionar que en las nuevas versiones se dieron "diferentes funciones" que hacen lo mismo
 
         Unas se conocen como Funciones DECLARATIVAS
-        Otras como FORMAS IMPERATIVAS
+        Otras como  IMPERATIVAS
 
     Ambas son muy utilizadas en la programación de JavaScript
 
@@ -10,7 +10,7 @@
 
     Es el ejemplo que vimos en el ejercicio pasado (Lección 05):
         Tenemos un Variable llamada 'carrito' con un Arreglo vacio, un Objeto con los diferentes articulos a vender 
-        y sobre ese mismo carrito estamos agregando elementos al Inicio o al Final
+        y sobre ese mismo carrito estamos agregando elementos al Inicio o al Final (Push y Unshift)
 
     La FORMA IMPERATIVA modifica la Variable Original
     Sobre ella misma trabaja, sobre ella misma reescribe y sobre ella misma modifica los datos
@@ -25,7 +25,7 @@
     En la forma IMPERATIVA el código se ve ordenado y se sabe qué hace cada cosa 
     En la forma DECLARATIVA digamos que no queda muy claro pero tambien no modifica directamente el "Objeto Original (carrito)"
 
-    La forma DECLARATIVA no modifica la Variable sino que Crea una Variable nueva (En su sintaxis no es tan claro qué está haciendo)
+    La forma DECLARATIVA no modifica la Variable sino que Crea una Variable nueva (Al final en su sintaxis no es tan claro qué está haciendo)
 */
 
 // IMPERATIVA
