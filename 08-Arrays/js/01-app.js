@@ -56,7 +56,7 @@ const producto = {
 
     Arreglos: 
 
-        Los Arreglos utilizan algo que se conoce como indices, es decir, cuál es la posición ese elemento en el Arreglo
+        Los Arreglos utilizan algo que se conoce como indices, es decir, cuál es la posición que tiene ese elemento en el Arreglo
         Los Arreglos inician en cero " 0 "
 
     NOTA: En algunos lenguajes (JavaScript no está incluido) los Arreglos inician en unos " 1 ". 
