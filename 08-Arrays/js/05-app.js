@@ -10,13 +10,17 @@ const meses = ['Enero', 'Febrero', 'Marzo'];
 
      Una variante son los Metodos de los Arreglos
 
-                        meses[3] = 'Abril';
+                                            meses[3] = 'Abril';
 
 
 
 
 // Agregar al final del Arreglo - No necesito conocer la posición | Lo agregará siempre al final
-meses.push('Abril');
+
+
+                                            meses.push('Abril');
+
+
 // Al agregar Mayo dirá ('Abril' en ese momento era el último elemento) esté lugar está ocupado así que lo añado hasta el final
 // Y 'Abril' tomará la posición penunltima y 'Mayo' pasará a ser el último valor del Arreglo
 meses.push('Mayo');
@@ -56,13 +60,18 @@ const producto2 = {
 
 /* 
     PASOS:
-        1. Creamos el Array carrito: const carrito = [];
+        1. Creamos el Array carrito: 
+                            
+                                const carrito = [];
+
         2. Definimos el producto:
                                 const producto = {
                                 nombre: "Monitor 32 Pulgadas",
                                 precio: 3000,
                             }
-        3. Añadirmos el producto al carrito: carrito.push(producto);
+        3. Añadirmos el producto al carrito:
+        
+                                carrito.push(producto);
 
     Si queremos añadir un producto al carrito ponemos .push porque como no hay ningún elemento lo añadirá a la última posición libre
 */
