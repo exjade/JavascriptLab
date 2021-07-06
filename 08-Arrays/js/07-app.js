@@ -33,19 +33,26 @@ console.table(carrito);
 
 /*
 // En los Objetos se elminaba con delete producto.nombre;
-// Eliminar último elemento de un Arreglo | Elimina al final del Arreglo
-carrito.pop();
 
-console.table(carrito);
+// Eliminar último elemento de un Arreglo | Elimina al final del Arreglo
+
+                            carrito.pop();
+
+                            console.table(carrito);
 
 // Eliminar del inicio del Arreglo
-carrito.shift();
+
+                            carrito.shift();
+                             console.table(carrito);
 */
 
 /*
-    Si queremos eliminar un elemento que no sea al Inicio o al Final del Arreglo podemos usar " .splice "
+    Si queremos eliminar un elemento sea en medio al Inicio o al Final del Arreglo podemos usar " .splice "
 
-    toma 2 parametros en los parentesis
+    IMPORTANTE - FUNCIONAMIENTO DE SPLICE:
+
+    Splice toma 2 parametros en los parentesis
+
         1. La posición (index) en donde comenzará a cortar (eliminar)
         2. Cuántos elementos quieres eliminar 
 
@@ -55,5 +62,5 @@ carrito.shift();
     NOTA: Es la forma IMPERATIVA de eliminar Elementos dentro de un ARRAY
 */
 
-carrito.splice(2, 1);
+carrito.splice(2,1 ); 
 console.table(carrito);
